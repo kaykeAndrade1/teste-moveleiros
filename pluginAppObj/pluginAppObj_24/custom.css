@@ -1,0 +1,437 @@
+
+#pluginAppObj_24 {
+    z-index: 4;
+}
+    
+#pluginAppObj_24 .container {
+    box-sizing: border-box;
+    position: relative;
+    width: 350px;
+    max-width: 100%;
+    margin: 0;
+    
+}
+
+#pluginAppObj_24 figure {
+	margin: 0;
+	position: relative;
+    height: 350px;
+    background: rgba(239, 239, 239, 1);
+}
+
+
+#pluginAppObj_24 figure .image-container {
+    max-width: 100%;
+    max-height: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#pluginAppObj_24 figure img {
+    height: 350px;
+}
+
+#pluginAppObj_24 figcaption {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 15px;
+	background: rgba(0, 71, 171,  1);	
+    box-sizing: border-box;
+}
+
+#pluginAppObj_24 figcaption .title {
+	margin: 0;
+	padding: 0;
+	color: rgba(255, 255, 255, 1);
+    font-family: Poppins;
+    font-size: 18pt;
+    font-weight: normal;
+    font-style: normal;
+    word-wrap: break-word; 
+    overflow: hidden;
+}
+
+#pluginAppObj_24 figcaption .text {
+	color: rgba(243, 243, 243, 1);
+    font-family: Poppins;
+    font-size: 11pt;
+    font-weight: normal;
+    font-style: normal;
+    word-wrap: break-word; 
+    overflow: hidden;
+}
+
+#pluginAppObj_24 figcaption a {
+	text-align: center;
+    padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+	display: inline-block;
+	background: rgba(255, 255, 255, 1);
+	color: rgba(0, 0, 0, 1);
+    font-family: Poppins;
+    font-size: 12pt;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    word-wrap: break-word; 
+    overflow: hidden;
+}
+
+/* Individual Caption Styles */
+
+/* Caption Style 1 */
+#pluginAppObj_24 .style-1 figcaption {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	text-align: center;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+	-moz-transition: -moz-transform 0.3s, opacity 0.3s;
+	transition: transform 0.3s, opacity 0.3s;
+}
+
+#pluginAppObj_24 .no-touch.style-1 figure:hover figcaption,
+#pluginAppObj_24 .style-1 figure.cs-hover figcaption {
+	opacity: 1;
+	-webkit-transform: translate(15px, 15px);
+	-moz-transform: translate(15px, 15px);
+	-ms-transform: translate(15px, 15px);
+	transform: translate(15px, 15px);
+}
+
+#pluginAppObj_24 .style-1 figcaption span {
+	display: block;
+}
+
+#pluginAppObj_24 .style-1 figcaption a {
+	margin-top: 2em;
+}
+
+/* Caption Style 2 */
+#pluginAppObj_24 .style-2 figure img {
+	z-index: 10;
+	-webkit-transition: -webkit-transform 0.4s;
+	-moz-transition: -moz-transform 0.4s;
+	transition: transform 0.4s;
+}
+
+#pluginAppObj_24 .no-touch.style-2 figure:hover img,
+#pluginAppObj_24 .style-2 figure.cs-hover img {
+	-webkit-transform: translateY(-35%);
+	-moz-transform: translateY(-35%);
+	-ms-transform: translateY(-35%);
+	transform: translateY(-35%);
+}
+
+#pluginAppObj_24 .style-2 figcaption {
+	height: 35%;
+	width: 100%;
+	top: auto;
+	bottom: 0;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+#pluginAppObj_24 .style-2 figcaption a {
+	position: absolute;
+	right: 15px;
+	top: 25;
+}
+
+/* Caption Style 3 */
+#pluginAppObj_24 .style-3 figure {
+	overflow: hidden;
+}
+
+#pluginAppObj_24 .style-3 figure img {
+	-webkit-transition: -webkit-transform 0.4s;
+	-moz-transition: -moz-transform 0.4s;
+	transition: transform 0.4s;
+}
+
+#pluginAppObj_24 .no-touch.style-3 figure:hover img,
+#pluginAppObj_24 .style-3 figure.cs-hover img {
+	-webkit-transform: translateY(-50px);
+	-moz-transform: translateY(-50px);
+	-ms-transform: translateY(-50px);
+	transform: translateY(-50px);
+}
+
+#pluginAppObj_24 .style-3 figcaption {
+	height: 33%;
+	width: 100%;
+	top: auto;
+	bottom: 0;
+	opacity: 0;
+	-webkit-transform: translateY(100%);
+	-moz-transform: translateY(100%);
+	-ms-transform: translateY(100%);
+	transform: translateY(100%);
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;
+	-moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
+	transition: transform 0.4s, opacity 0.1s 0.3s;
+}
+
+#pluginAppObj_24 .no-touch.style-3 figure:hover figcaption,
+#pluginAppObj_24 .style-3 figure.cs-hover figcaption {
+	opacity: 1;
+	-webkit-transform: translateY(0px);
+	-moz-transform: translateY(0px);
+	-ms-transform: translateY(0px);
+	transform: translateY(0px);
+	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
+	-moz-transition: -moz-transform 0.4s, opacity 0.1s;
+	transition: transform 0.4s, opacity 0.1s;
+}
+
+#pluginAppObj_24 .style-3 figcaption a {
+	position: absolute;
+	bottom: 15px;
+	right: 15px;
+}
+
+/* Caption Style 4 */
+#pluginAppObj_24 .style-4 li {
+	-webkit-perspective: 1700px;
+	-moz-perspective: 1700px;
+	perspective: 1700px;
+	-webkit-perspective-origin: 0 50%;
+	-moz-perspective-origin: 0 50%;
+	perspective-origin: 0 50%;
+}
+
+#pluginAppObj_24 .style-4 figure {
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+
+#pluginAppObj_24 .style-4 figure > div {
+	overflow: hidden;
+}
+
+#pluginAppObj_24 .style-4 figure img {
+	-webkit-transition: -webkit-transform 0.4s;
+	-moz-transition: -moz-transform 0.4s;
+	transition: transform 0.4s;
+}
+
+#pluginAppObj_24 .no-touch.style-4 figure:hover img,
+#pluginAppObj_24 .style-4 figure.cs-hover img {
+	-webkit-transform: translateX(25%);
+	-moz-transform: translateX(25%);
+	-ms-transform: translateX(25%);
+	transform: translateX(25%);
+}
+
+#pluginAppObj_24 .style-4 figcaption {
+	height: 100%;
+	width: 50%;
+	opacity: 0;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transform-origin: 0 0;
+	-moz-transform-origin: 0 0;
+	transform-origin: 0 0;
+	-webkit-transform: rotateY(-90deg);
+	-moz-transform: rotateY(-90deg);
+	transform: rotateY(-90deg);
+	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;
+	-moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
+	transition: transform 0.4s, opacity 0.1s 0.3s;
+}
+
+#pluginAppObj_24 .no-touch.style-4 figure:hover figcaption,
+#pluginAppObj_24 .style-4 figure.cs-hover figcaption {
+	opacity: 1;
+	-webkit-transform: rotateY(0deg);
+	-moz-transform: rotateY(0deg);
+	transform: rotateY(0deg);
+	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
+	-moz-transition: -moz-transform 0.4s, opacity 0.1s;
+	transition: transform 0.4s, opacity 0.1s;
+}
+
+#pluginAppObj_24 .style-4 figcaption a {
+	position: absolute;
+	bottom: 15px;
+	right: 15px;
+}
+
+/* Caption Style 5 */
+#pluginAppObj_24 .style-5 figure img {
+	z-index: 10;
+	-webkit-transition: -webkit-transform 0.4s;
+	-moz-transition: -moz-transform 0.4s;
+	transition: transform 0.4s;
+}
+
+#pluginAppObj_24 .style-5 figure .image-container {
+    z-index: 10;
+}
+
+#pluginAppObj_24 .no-touch.style-5 figure:hover img,
+#pluginAppObj_24 .style-5 figure.cs-hover img {
+	-webkit-transform: scale(0.4);
+	-moz-transform: scale(0.4);
+	-ms-transform: scale(0.4);
+	transform: scale(0.4);
+}
+
+#pluginAppObj_24 .style-5 figcaption {
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	-webkit-transform: scale(0.7);
+	-moz-transform: scale(0.7);
+	-ms-transform: scale(0.7);
+	transform: scale(0.7);
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transition: -webkit-transform 0.4s, opacity 0.4s;
+	-moz-transition: -moz-transform 0.4s, opacity 0.4s;
+	transition: transform 0.4s, opacity 0.4s;
+    z-index: 11;
+}
+
+#pluginAppObj_24 .no-touch.style-5 figure:hover figcaption,
+#pluginAppObj_24 .style-5 figure.cs-hover figcaption {
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+	opacity: 1;
+}
+
+#pluginAppObj_24 .style-5 figure a {
+	position: absolute;
+	bottom: 15px;
+	right: 15px;
+}
+
+/* Caption Style 6 */
+#pluginAppObj_24 .style-6 figure {
+	overflow: hidden;
+}
+
+#pluginAppObj_24 .style-6 figure img {
+	z-index: 10;
+	-webkit-transition: -webkit-transform 0.4s;
+	-moz-transition: -moz-transform 0.4s;
+	transition: transform 0.4s;
+}
+
+#pluginAppObj_24 .no-touch.style-6 figure:hover img,
+#pluginAppObj_24 .style-6 figure.cs-hover img {
+	-webkit-transform: translateY(-50px) scale(0.5);
+	-moz-transform: translateY(-50px) scale(0.5);
+	-ms-transform: translateY(-50px) scale(0.5);
+	transform: translateY(-50px) scale(0.5);
+}
+
+#pluginAppObj_24 .style-6 figcaption {
+	height: 100%;
+	width: 100%;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+#pluginAppObj_24 .style-6 figcaption .title {
+	margin-top: calc(210px + 15px);
+}
+
+#pluginAppObj_24 .style-6 figcaption a {
+	position: absolute;
+	bottom: 15px;
+	right: 15px;
+}
+
+/* Caption Style 7 */
+#pluginAppObj_24 .style-7 li:first-child { z-index: 17; }
+#pluginAppObj_24 .style-7 li:nth-child(2) { z-index: 16; }
+#pluginAppObj_24 .style-7 li:nth-child(3) { z-index: 15; }
+#pluginAppObj_24 .style-7 li:nth-child(4) { z-index: 14; }
+#pluginAppObj_24 .style-7 li:nth-child(5) { z-index: 13; }
+#pluginAppObj_24 .style-7 li:nth-child(6) { z-index: 12; }
+
+#pluginAppObj_24 .style-7 figure img {
+	z-index: 11;
+}
+
+#pluginAppObj_24 .style-7 figcaption {
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	pointer-events: none;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transition: opacity 0.3s, height 0.3s, box-shadow 0.3s;
+	-moz-transition: opacity 0.3s, height 0.3s, box-shadow 0.3s;
+	transition: opacity 0.3s, height 0.3s, box-shadow 0.3s;
+	box-shadow: 0 0 0 0px rgba(0, 0, 0, 1);
+}
+
+#pluginAppObj_24 .no-touch.style-7 figure:hover figcaption,
+#pluginAppObj_24 .style-7 figure.cs-hover figcaption {
+	pointer-events: auto;
+	opacity: 1;
+	min-height: 120%;
+	height: auto;
+	box-shadow: 0 0 0 10px rgba(0, 0, 0, 1);
+}
+
+#pluginAppObj_24 .style-7 figcaption .title {
+    margin-top: calc(350px + 5px);
+}
+
+#pluginAppObj_24 .style-7 figcaption .title,
+#pluginAppObj_24 .style-7 figcaption span,
+#pluginAppObj_24 .style-7 figcaption a {
+	opacity: 0;
+	-webkit-transition: opacity 0s;
+	-moz-transition: opacity 0s;
+	transition: opacity 0s;
+}
+
+#pluginAppObj_24 .style-7 figcaption a {
+	position: absolute;
+	bottom: 15px;
+	right: 15px;
+}
+
+#pluginAppObj_24 .no-touch.style-7 figure:hover figcaption .title,
+#pluginAppObj_24 .no-touch.style-7 figure:hover figcaption span,
+#pluginAppObj_24 .no-touch.style-7 figure:hover figcaption a,
+#pluginAppObj_24 .style-7 figure.cs-hover figcaption .title,
+#pluginAppObj_24 .style-7 figure.cs-hover figcaption span,
+#pluginAppObj_24 .style-7 figure.cs-hover figcaption a {
+	-webkit-transition: opacity 0.3s 0.2s;
+	-moz-transition: opacity 0.3s 0.2s;
+	transition: opacity 0.3s 0.2s;
+	opacity: 1;
+}

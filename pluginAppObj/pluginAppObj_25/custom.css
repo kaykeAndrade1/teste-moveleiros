@@ -1,0 +1,28 @@
+#separator_pluginAppObj_25 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  margin: 0 auto;
+  overflow: hidden;
+}
+#pluginAppObj_25 {
+  width: 100%;
+}
+#separator_pluginAppObj_25 .separator-line {
+  width: 100%;
+  border-top: 1px solid rgba(0, 71, 171, 1);
+}
+#separator_pluginAppObj_25 .separator-line.left-line {
+  margin-right: 10px;
+}
+#separator_pluginAppObj_25 .separator-line.right-line {
+  margin-left: 10px;
+}
+#separator_pluginAppObj_25 .separator-text {
+  font-family: Poppins;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28pt;
+  color: rgba(0, 71, 171, 1);
+}
